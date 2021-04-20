@@ -1,0 +1,13 @@
+.container {
+  height: 100vh;
+}
+
+.header {
+  @apply fixed flex items-center z-10 top-0;
+  @apply bg-gray-600 text-white;
+  @apply h-16 p-4 w-full;
+}
+
+.main {
+  @apply flex mt-16 p-4;
+}
